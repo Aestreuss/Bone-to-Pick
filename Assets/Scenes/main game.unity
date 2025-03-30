@@ -170,7 +170,7 @@ MonoBehaviour:
   itemPrefab: {fileID: 8067581622880040809, guid: a6828a1ea62b6b34b92983da1b736488, type: 3}
   Radius: 5
   spawnButton: {fileID: 356051936}
-  cooldownTime: 5
+  cooldownTime: 3
 --- !u!1 &356051934
 GameObject:
   m_ObjectHideFlags: 0

@@ -57,6 +57,30 @@ public class DragObject : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
+
+        if (mouseButtonReleased && thisGameobjectName == "bone3" && thisGameobjectName == collisionGameobjectName)
+        {
+            Instantiate(Resources.Load("bone4_object"), transform.position, Quaternion.identity);
+            mouseButtonReleased = false;
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+
+        if (mouseButtonReleased && thisGameobjectName == "bone4" && thisGameobjectName == collisionGameobjectName)
+        {
+            Instantiate(Resources.Load("bone5_object"), transform.position, Quaternion.identity);
+            mouseButtonReleased = false;
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+
+        if (mouseButtonReleased && thisGameobjectName == "bone5" && thisGameobjectName == collisionGameobjectName)
+        {
+            Instantiate(Resources.Load("bone6_object"), transform.position, Quaternion.identity);
+            mouseButtonReleased = false;
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
 
 }
